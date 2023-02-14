@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import MuiAutoComplete from './components/MuiAutoComplete';
 import MuiButton from './components/MuiButton';
 import MuiChecked from './components/MuiChecked';
 import MuiRadioButton from './components/MuiRadioButton';
@@ -19,7 +20,8 @@ function App() {
      {/* <MuiRadioButton /> */}
      {/* <MuiChecked /> */}
      {/* <MuiSwitch /> */}
-     <MuiRating />
+     {/* <MuiRating /> */}
+     <MuiAutoComplete />
     </div>
   );
 }
